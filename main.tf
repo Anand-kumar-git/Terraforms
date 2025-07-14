@@ -6,6 +6,6 @@ resource "aws_instance" "ec2" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Jenkins-Terraform-EC2"
+    Name = "Jenkins-Terraform-EC2-inatsnces"
   }
 }
